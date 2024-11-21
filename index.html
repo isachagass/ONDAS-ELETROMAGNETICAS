@@ -1,0 +1,1658 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ondas</title>
+
+</head>
+
+<body>
+    <main id="mainInicio">
+        <section id="inicio">
+            <article id="esquerdaInicio">
+                <div id="tituloTrabalho">
+                    <img src="./images/fisica_icone.png" alt="Icone de Física - Átomo">
+                    <p>Trabalho <br>de Física</p>
+                </div>
+                <h1>Ondulatória</h1>
+                <button id="definicao">Definições</button>
+            </article>
+            <article>
+                <img id="inicioIcone" src="./images/antena_icone.png" alt="Antena mandando sinal">
+            </article>
+        </section>
+
+        <!-- triangulo -->
+
+        <section id="meiaTela">
+            <article class="textos">
+                <h1>O que são ondas?</h1>
+                <p>Uma onda é uma perturbação que se propaga em um meio ou no vácuo, transportando energia sem deslocar
+                    matéria. </p>
+                <h2>Características</h2>
+                <p>
+                    <strong>Amplitude:</strong> corresponde à altura da onda, distância entre o ponto de equilíbrio até
+                    a crista. <br>
+                    <strong>Crista:</strong> indica o ponto máximo da onda <br>
+                    <strong>Vale:</strong> representa a ponto mínimo da onda. <br>
+                    <strong>Comprimento de onda:</strong> representado pela letra grega lambda (λ), é a distância entre
+                    dois vales ou duas cristas sucessivas. <br>
+                    <strong>Velocidade:</strong> representado pela letra (v), a velocidade de uma onda depende do meio
+                    em que ela está se propagando. <br>
+                    <strong>Frequência:</strong> representada pela letra (f), medida em hertz (Hz), corresponde ao
+                    número de oscilações da onda em determinado intervalo de tempo. <br>
+                    <strong>Período:</strong> representado pela letra (T), medida em segundos (s), corresponde ao tempo
+                    de um comprimento de onda.
+                </p>
+
+                <article id="caracteristica">
+                    <img src="./images/caracteristicasOnda.png" alt="Características da onda">
+                </article>
+
+            </article>
+            <article id="duasImg">
+                <img id="primeiraimg" src="./images/ondas_mar.png" alt="Ondas do mar">
+                <img id="segundaimg" src="./images/ondas_som.png" alt="Ondas de som">
+            </article>
+        </section>
+
+        <section id="tiposOndas">
+            <h2>Tipos de Ondas</h2>
+            <div>
+                <button id="mecanica" class="tipo"><a href="#ondaMecanica">
+                    <img src="./images/onda_mecanica.png" alt="">
+                    <h3>Mecânica</h3>
+                    <p>As ondas mecânicas precisam de um meio material para se propagar</p></a>
+                </button>
+                <button id="eletromag" class="tipo"><a href="#ondaEletrom">
+                    <img src="./images/onda_eletromagnetica.png" alt="">
+                    <h3>Eletromagnética</h3>
+                    <p>Podem viajar tanto por meios materiais como no vácuo</p></a>
+                </button>
+            </div>
+        </section>
+
+
+        <section id="ondaMecanica" class="esconder">
+            <h1>O que são ondas mecânicas?</h1>
+            <p>Ondas mecânicas são perturbações que se propagam em meios materiais, como sólidos, líquidos ou gases,
+                transferindo energia de uma partícula para outra. </p>
+            <p>Essas perturbações ocorrem na forma de pulsos, que são variações de curta duração. Quando esses pulsos se
+                repetem de maneira regular, formam ondas periódicas, ou seja, ondas que se repetem em intervalos de
+                tempo iguais. </p>
+
+            <article class="textos">
+                <h2>Classificação:</h2>
+                <p>As ondas mecânicas podem ser classificadas de duas formas: em relação à sua direção de vibração e sua
+                    direção de propagação. </p>
+                <div class="tiposMecanica">
+                   
+                    <p><strong>Tranversais:</strong><br>
+                        São ondas em que as partículas do meio vibram <strong>perpendicularmente</strong> à direção de
+                        propagação da onda, ou seja, o movimento das partículas ocorre em uma direção diferente da
+                        propagação da onda.
+                    </p>
+                    <img src="./images/onda_transversal.png" alt="Onda Transversal">
+                </div>
+                <div class="tiposMecanica">
+                    <p>
+                        <strong>Longitudinal:</strong><br>
+                        São ondas em que as partículas do meio vibram <strong>paralelamente</strong> à direção de
+                        propagação da onda, ou seja, o movimento das partículas ocorre na mesma direção em que a onda se
+                        propaga.
+                    </p>
+                    <img src="./images/onda_logitudinal.png" alt="Onda Longitudinal">
+                </div>
+
+            </article>
+
+            <article class="utilidades">
+                <h2>Onde são encontradas:</h2>
+
+                <section class="ondeUsa">
+                    <div id="ondaSonora">
+                        <img src="./images/som_icone.png" alt="Som">
+                        <p>Ondas Sonoras</p>
+                    </div>
+                    <div id="ondaLiquido">
+                        <img src="./images/ondaMar_icone.png" alt="Onda do mar">
+                        <p>Ondas em Líquidos</p>
+                    </div>
+                    <div id="ondaSismica">
+                        <img src="./images/terremoto_icone.png" alt="Terremoto">
+                        <p>Ondas Sísmicas</p>
+                    </div>
+                </section>
+
+                <!-- blocos, procurar sobre dialog -->
+                <dialog id="ondaSonora-modal">
+                    <div class="containerModal">
+                        <div class="fechar">
+                            <button id="fecharSom"><img src="./images/fechar_icone.png" alt="X"></button>
+                        </div>
+                        <h3>Ondas Sonoras</h3>
+
+                        <p>O som que ouvimos é uma onda mecânica que viaja pelo ar até nossos ouvidos. </p>
+                        <img src="./images/ondasSonoras.png" alt="Ondas Sonoras">
+                    </div>
+
+                </dialog>
+
+                <dialog id="ondaLiquida-modal">
+                    <div class="containerModal">
+                        <div class="fechar"><button id="fecharL"><img src="./images/fechar_icone.png" alt="X"></button>
+                        </div>
+
+                        <h3>Ondas em Líquidos</h3>
+                        <p>As ondas na superfície de um lago ou oceano são ondas mecânicas que se propagam pela água.
+                        </p>
+                        <img src="./images/ondaLiquido.png" alt="Ondas Sonoras">
+                    </div>
+                </dialog>
+
+                <dialog id="ondaSismica-modal">
+                    <div class="containerModal">
+                        <div class="fechar"><button id="fecharSis"><img src="./images/fechar_icone.png"
+                                    alt="X"></button></div>
+                        <h3>Ondas Sísmicas</h3>
+                        <p>Geradas por terremotos, essas ondas mecânicas viajam pela crosta terrestre. </p>
+                        <img src="./images/ondasSismicas.png" alt="Ondas Sonoras">
+                    </div>
+                </dialog>
+            </article>
+
+        </section>
+
+        <section id="ondaEletrom" class="esconder">
+            <h1>O que são ondas eletromagnéticas?</h1>
+            <article id="txtImg">
+                <div>
+                    <p>Ondas eletromagnéticas são ondas que se propagam sem a necessidade de um meio material, ou seja,
+                        podem viajar tanto através de materiais quanto no vácuo.</p>
+                    <p>Elas são formadas por campos elétricos e magnéticos oscilantes que se propagam perpendicularmente
+                        entre si e à direção de propagação da onda.</p>
+                </div>
+                <img src="./images/ondasEletro1.png" alt="Onda Eletromagnética">
+            </article>
+            <br>
+            <br>
+            <h2 id="titulomeio">Espectro eletromagnético</h2>
+            <section id="espectro">
+                <button id="ondaRadio">
+                    <img src="./images/onda_radioIcone.png" alt="Tv e rádio">
+                    <p>Ondas de Rádio</p>
+                    <img src="./images/ondas_rádio.png" alt="Onda de Rádio">
+                </button>
+                <button id="ondaMicro">
+                    <img src="./images/onda_microondaIcone.png" alt="Microondas">
+                    <p>Micro-ondas</p>
+                    <img src="./images/ondas_microondas.png" alt="Onda micro-ondas">
+                </button>
+                <button id="ondaInfra">
+                    <img src="./images/onda_infraVIcone.png" alt="Controle Remoto">
+                    <p>Infravermelho</p>
+                    <img src="./images/ondas_infravermelho.png" alt="Onda infravermelho">
+                </button>
+                <button id="ondaLuz">
+                    <img src="./images/onda_luzIcone.png" alt="Lâmpada">
+                    <p>Luz Visível</p>
+                    <img src="./images/ondas_luz.png" alt="Onda de Luz visível">
+                </button>
+                <button id="ondaUltra">
+                    <img src="./images/onda_ultraIcone.png" alt="Sol">
+                    <p>Ultravioleta</p>
+                    <img src="./images/ondas_ultravioletas.png" alt="Onda ultravioleta">
+                </button>
+                <button id="ondaRaioX">
+                    <img src="./images/onda_raioXIcone.png" alt="Raio-X">
+                    <p>Raio-X</p>
+                    <img src="./images/ondas_raioX.png" alt="Onda Raio-X">
+                </button>
+                <button id="ondaGama">
+                    <img src="./images/onda_raiogamaIcone.png" alt="Raio Gama">
+                    <p>Raio Gama</p>
+                    <img src="./images/ondas_raioGama.png" alt="Onda Raio Gama">
+                </button>
+            </section>
+
+            <!-- modal-onda de rádio e onde usa -->
+            <section id="ondaRadio-modal" class="esconder">
+                <h1>O que são Ondas de Rádio?</h1>
+                <div class="txt_ondaX">
+                    <div>
+                        <p>A onda de rádio é um tipo de onda eletromagnética, que possui a menor frequência de onda do
+                            espectro eletromagnético, assim, transporta pouca energia e, por consequência, possui o
+                            maior comprimento de onda. </p>
+                        <h2>Características da onda:</h2>
+                        <p><strong>Comprimento:</strong> Cerca de1000 m. </p>
+                        <p><strong>Frequência:</strong> Geralmente fica na faixa de 10.000 Hz. <br>Ondas de rádio com
+                            frequências mais baixas têm comprimentos de onda mais longos, e vice-versa.</p>
+                        <br>
+                        <p><strong>Radiação:</strong> <br>Ondas de rádio fazem parte da radiação <strong>não
+                                ionizante</strong>, já que não possuem energia suficiente para ionizar átomos ou
+                            moléculas e causar danos diretos ao material biológico. </p>
+                    </div>
+                    <img src="./images/antena_imagem.png" alt="Antena" class="imagemredonda">
+                </div>
+
+                <article class="utilidades">
+                    <h2>Onde são encontradas:</h2>
+
+                    <section class="ondeUsa">
+                        <div id="radares">
+                            <img src="./images/icone_radar.png" alt="Radar">
+                            <p>Radares</p>
+                        </div>
+                        <div id="satelites">
+                            <img src="./images/antena_iconeP.png" alt="Antena">
+                            <p>Satélites</p>
+                        </div>
+                        <div id="telefone">
+                            <img src="./images/icone_telefone.png" alt="Telefone">
+                            <p>Telefone Móvel</p>
+                        </div>
+                        <div id="tvDigital">
+                            <img src="./images/icone_tomografia.png" alt="Ressonancia">
+                            <p>Ressonancia</p>
+                        </div>
+                        <div id="radioFm">
+                            <img src="./images/icone_radioFm.png" alt="Rádio FM">
+                            <p>Rádio FM</p>
+                        </div>
+                    </section>
+                </article>
+            </section>
+            <section class="modalDif">
+                <dialog id="radar-modal">
+                    <div class="fechar">
+                        <button id="fecharRadar"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Radares</h3>
+
+                        <p>Os radares utilizam ondas eletromagnéticas para detectar e localizar objetos à distância. O
+                            processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>O radar emite um feixe de ondas eletromagnéticas,
+                                geralmente micro-ondas ou ondas de rádio de alta frequência, em direção ao espaço ou a
+                                um alvo específico. </li>
+                            <li><strong>Reflexão:</strong>Quando as ondas eletromagnéticas atingem um objeto (como um
+                                avião, carro ou até fenômenos meteorológicos), parte dessas ondas é refletida de volta
+                                ao radar.</li>
+                            <li><strong>Recepção:</strong>O radar capta essas ondas refletidas usando uma antena
+                                receptora. </li>
+                            <li><strong>Análise:</strong>Ao medir o tempo que as ondas levam para ir e voltar, o radar
+                                pode calcular a distância até o objeto. A direção do retorno indica a posição, e a
+                                variação na frequência das ondas (efeito Doppler) permite estimar a velocidade do
+                                objeto.</li>
+                        </ul>
+                        <p>Os radares são amplamente utilizados em aviação, controle de tráfego marítimo, meteorologia e
+                            defesa militar, entre outras áreas. </p>
+                        <img src="./images/exRadar.png" alt="Como funcionam os radares">
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="satelite-modal">
+                    <div class="fechar">
+                        <button id="fecharSatelite"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Satélites</h3>
+
+                        <p>Os satélites utilizam ondas eletromagnéticas para comunicação e transmissão de dados. O
+                            processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>Uma estação terrestre envia um sinal de ondas de rádio
+                                para um satélite em órbita. </li>
+                            <li><strong>Recepção e Reenvio:</strong>O satélite capta esse sinal com suas antenas e o
+                                retransmite para outra estação terrestre, que pode estar a milhares de quilômetros de
+                                distância, ou para outra área de cobertura. </li>
+                            <li><strong>Análise e Transmissão:</strong>O satélite pode amplificar, modificar ou
+                                redirecionar o sinal, permitindo comunicação entre pontos distantes na Terra. Isso é
+                                fundamental para transmissões de TV, telefonia e internet por satélite. </li>
+
+                        </ul>
+                        <p>Satélites são amplamente utilizados para comunicação global, navegação (GPS), monitoramento
+                            ambiental e meteorológico, além de serviços de segurança e defesa. </p>
+                        <img src="./images/exSatelite.png" alt="Como funcionam os satélites">
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="telefone-modal">
+                    <div class="fechar">
+                        <button id="fecharTelefone"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Telefone Móvel</h3>
+
+                        <p>Os telefones móveis utilizam ondas de rádio para estabelecer comunicação sem fio. O processo
+                            funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>Quando você faz uma chamada ou envia uma mensagem, o
+                                telefone móvel emite um sinal de ondas de rádio para a torre de celular mais próxima.
+                            </li>
+                            <li><strong>Recepção e Transmissão:</strong>A torre recebe o sinal e o envia para uma
+                                central de comunicação, que direciona o sinal para a torre mais próxima do destinatário.
+                            </li>
+                            <li><strong>Conexão Estabelecida:</strong>A torre de destino envia o sinal para o telefone
+                                do destinatário, completando a comunicação. </li>
+
+                        </ul>
+                        <p>As ondas de rádio são essenciais para o funcionamento de redes de telefonia móvel, permitindo
+                            comunicação por voz, envio de mensagens de texto e acesso à internet. </p>
+                        <img src="./images/telefone_imagem.png" alt="Como funciona a comunicação por telefone">
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="tv-modal">
+                    <div class="fechar">
+                        <button id="fecharTV"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Ressonância</h3>
+
+                        <p>A ressonância magnética <strong>utiliza ondas de rádio e campos magnéticos</strong> para gerar imagens detalhadas do interior do corpo. Esse processo, conhecido como <strong>Ressonância Magnética (RM)</strong>, não envolve radiação ionizante (como raios-X ou raios gama), tornando-o um método seguro para visualização de tecidos moles, como o cérebro, músculos e órgãos internos.  </p>
+                        <p>O funcionamento básico envolve:</p>
+                        <ul>
+                            <li><strong>Campo Magnético Forte:</strong> O paciente é colocado dentro de uma máquina que gera um campo magnético muito forte, alinhando os prótons no corpo. </li>
+                            <li><strong>Ondas de Rádio:</strong> Pulsos de ondas de rádio são emitidos e fazem com que esses prótons se desalinhem temporariamente. </li>
+                            <li><strong>Sinal de Retorno:</strong>Quando os prótons retornam à sua posição original, eles emitem sinais que são captados e convertidos em imagens tridimensionais pelo computador.
+                            </li>
+
+                        </ul>
+                        <p>A ressonância magnética, não usa radiação, o que é uma grande vantagem, especialmente para exames frequentes. Além disso, ela é excelente para ver tecidos moles, como o cérebro, músculos e órgãos internos, oferecendo imagens detalhadas e seguras. Isso faz dela uma opção confiável para diagnósticos que precisam de imagens mais precisas e menos exposição a riscos. </p>
+                        <img src="./images/exRessonancia.png" alt="Como funciona a transmissão de canais de tv">
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="radioFm-modal">
+                    <div class="fechar">
+                        <button id="fecharRadioFm"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Rádio FM</h3>
+
+                        <p>O rádio FM utiliza ondas de rádio para transmitir sinais de áudio. O processo funciona da
+                            seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>A estação de rádio modula um sinal de áudio em uma
+                                onda de rádio de alta frequência (FM - Modulação de Frequência) e o transmite para uma
+                                área de cobertura. </li>
+                            <li><strong>Recepção:</strong>Os rádios sintonizam uma frequência específica para captar
+                                esse sinal.</li>
+                            <li><strong>Decodificação e Reprodução:</strong>O rádio converte o sinal recebido em áudio,
+                                permitindo que os ouvintes ouçam a transmissão.</li>
+
+                        </ul>
+                        <p>A transmissão via FM é amplamente utilizada para a difusão de música, notícias e
+                            entretenimento, oferecendo uma qualidade de som superior à AM devido à menor interferência.
+                        </p>
+                        <img src="./images/radioFm_imagem.png" alt="Como funciona a transmissão de rádios">
+
+                    </div>
+
+                </dialog>
+            </section>
+
+            <!-- modal- onda microondas e onde usa -->
+            <section id="ondaMicro-modal" class="esconder">
+                <h1>O que são Ondas Microondas? </h1>
+                <div class="txt_ondaX">
+                    <div>
+                        <p>Ondas Microondas são um tipo de onda eletromagnética que possuem frequências relativamente
+                            altas e comprimentos de onda curtos, o que lhes permite transportar mais energia do que as
+                            ondas de rádio.</p>
+                        <h2>Características da onda:</h2>
+                        <p><strong>Comprimento:</strong> Varia entre 1 mm e 1 metro, dependendo de sua frequência.</p>
+                        <p><strong>Frequência:</strong> Vão de 300 MHz até 300 GHz. <br>Quanto maior a frequência, menor
+                            o comprimento de onda. </p>
+                        <br>
+                        <p><strong>Radiação:</strong> <br>Ondas microondas fazem parte da radiação<strong> não
+                                ionizante</strong>, ou seja, não têm energia suficiente para ionizar átomos ou
+                            moléculas. Embora não sejam capazes de causar danos diretos ao material biológico, o uso
+                            inadequado das micro-ondas pode gerar aquecimento indesejado em materiais. </p>
+                    </div>
+                    <img src="./images/microondas_imagem.png" alt="Micro-ondas" class="imagemredonda">
+                </div>
+
+                <article class="utilidades">
+                    <h2>Onde são encontradas:</h2>
+
+                    <section class="ondeUsa">
+                        <div id="fornos">
+                            <img src="./images/icone_fornoM.png" alt="Forno">
+                            <p>Fornos de Micro-ondas</p>
+                        </div>
+                        <div id="medicina">
+                            <img src="./images/icone_medicina.png" alt="Medicina">
+                            <p>Medicina</p>
+                        </div>
+                        <div id="sensor">
+                            <img src="./images/icone_sensorMovimento.png" alt="Sensor">
+                            <p>Sensores de Movimento</p>
+                        </div>
+                        <div id="energia">
+                            <img src="./images/icone_energiaSem.png" alt="Energia">
+                            <p>Transmissão de Energia sem Fio</p>
+                        </div>
+                    </section>
+                </article>
+
+            </section>
+            <section class="modalDif">
+                <dialog id="forno-modal">
+                    <div class="fechar">
+                        <button id="fecharForno"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Fornos de Micro-ondas</h3>
+
+                        <p>O forno de micro-ondas utiliza ondas eletromagnéticas na faixa das microondas para aquecer e
+                            cozinhar alimentos. O processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>O magnetron, uma peça dentro do forno, gera microondas
+                                que são emitidas e distribuídas uniformemente pelo interior do aparelho.</li>
+                            <li><strong>Interação com Alimentos:</strong>As microondas penetram nos alimentos e fazem
+                                com que as moléculas de água presentes neles vibrem rapidamente.</li>
+                            <li><strong>Aquecimento:</strong>Esse movimento rápido das moléculas gera calor, cozinhando
+                                o alimento de dentro para fora, de maneira uniforme e rápida.</li>
+                        </ul>
+                        <p>As ondas microondas são usadas para cozinhar porque elas interagem diretamente com moléculas
+                            de água, aquecendo os alimentos de forma eficiente. </p>
+                        <img src="./images/exFornoMicroo.png" alt="Como funcionam os Fornos de Micro-ondas">
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="medicina-modal">
+                    <div class="fechar">
+                        <button id="fecharMedicina"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Medicina</h3>
+
+                        <p>Na medicina, as microondas são utilizadas em terapias de aquecimento, como na diatermia, que
+                            trata lesões por meio de calor. O processo funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>Equipamentos médicos emitem microondas diretamente
+                                sobre a área a ser tratada, penetrando na pele. </li>
+                            <li><strong>Interação com Tecidos</strong>As microondas geram calor nos tecidos do corpo,
+                                especialmente em áreas ricas em água, como músculos e articulações. </li>
+                            <li><strong>Tratamento:</strong>O calor produzido pelas microondas aumenta a circulação
+                                sanguínea e relaxa os músculos, auxiliando na recuperação de lesões.</li>
+                        </ul>
+                        <p>As microondas são usadas na medicina para tratar condições musculares e articulares,
+                            promovendo alívio da dor e aceleração na cura. </p>
+                        <img src="./images/exMedicinaMicroo.png" alt="Como funcionam as diatermia">
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="sensor-modal">
+                    <div class="fechar">
+                        <button id="fecharSensor"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Sensores de Movimento</h3>
+
+                        <p>Sensores de movimento utilizam microondas para detectar a presença e o movimento de objetos.
+                            O processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>O sensor emite um sinal contínuo de microondas, que
+                                viaja pelo ambiente.</li>
+                            <li><strong>Reflexão das Ondas:</strong>As ondas microondas são refletidas de volta ao
+                                sensor quando atingem objetos no ambiente, como paredes ou móveis. </li>
+                            <li><strong>Detecção de Movimento:</strong>Se algo se mover no caminho das ondas, como uma
+                                pessoa, o sensor detecta a alteração no retorno das ondas refletidas e aciona uma
+                                resposta, como acender uma luz ou ativar um alarme.</li>
+                        </ul>
+                        <p>Se algo se mover no caminho das ondas, como uma pessoa, o sensor detecta a alteração no
+                            retorno das ondas refletidas e aciona uma resposta, como acender uma luz ou ativar um
+                            alarme.</p>
+                        <img src="./images/exSensorMicroo.png" alt="Como funciona Sensores de Movimento">
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="energia-modal">
+                    <div class="fechar">
+                        <button id="fecharEnergia"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Transmissão de Energia sem Fio</h3>
+
+                        <p>As microondas também podem ser usadas para transmitir energia sem fios em experimentos de
+                            alta tecnologia. O processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>Uma fonte de energia emite microondas direcionadas a
+                                um receptor em um ponto distante. </li>
+                            <li><strong>Transporte de Energia:</strong>As microondas transportam energia através do ar,
+                                sem a necessidade de cabos, até o receptor.</li>
+                            <li><strong>Conversão em Eletricidade:</strong>O receptor converte as microondas recebidas
+                                de volta em eletricidade utilizável para alimentar dispositivos ou armazenar energia.
+                            </li>
+
+                        </ul>
+                        <p>As microondas são usadas na transmissão de energia sem fio porque conseguem transferir
+                            energia a grandes distâncias de forma eficaz e controlada. </p>
+                        <img src="./images/exEnergiaMicroo.png" alt="Como funciona Transmissão de Energia sem Fio">
+                    </div>
+                </dialog>
+            </section>
+
+            <!-- modal- onda infravermelhas e onde usa -->
+            <section id="ondaInfravermelha-modal" class="esconder">
+                <h1>O que são Ondas Infravermelhas? </h1>
+                <div class="txt_ondaX">
+                    <div>
+                        <p>Ondas infravermelhas são um tipo de onda eletromagnética que são comumente associadas ao
+                            calor, pois muitos objetos emitem radiação infravermelha conforme sua temperatura.</p>
+                        <h2>Características da onda:</h2>
+                        <p><strong>Comprimento:</strong> Pode variar de 700 nanômetros a 1 milímetro.</p>
+                        <p><strong>Frequência:</strong> Varia entre 300 GHz e 430 THz.<br>Quanto maior a frequência,
+                            menor o comprimento de onda.</p>
+                        <br>
+                        <p><strong>Radiação:</strong> <br>Ondas infravermelhas fazem parte da radiação <strong>não
+                                ionizante</strong>, o que significa que elas não possuem energia suficiente para ionizar
+                            átomos ou moléculas. Por isso, elas não causam danos diretos ao material biológico, mas
+                            podem gerar aquecimento ao interagir com os objetos.</p>
+                    </div>
+                    <img src="./images/controle_img.jpg" alt="Controle Remoto" class="imagemredonda">
+                </div>
+
+                <article class="utilidades">
+                    <h2>Onde são encontradas:</h2>
+
+                    <section class="ondeUsa">
+                        <div id="controleR">
+                            <img src="./images/icone_controleRemoto.png" alt="Controles Remotos">
+                            <p>Controles Remotos</p>
+                        </div>
+                        <div id="termografia">
+                            <img src="./images/icone_termometroLaser.png" alt="Termografia">
+                            <p>Termografia</p>
+                        </div>
+                        <div id="visaoNoturna">
+                            <img src="./images/icone_visaoNoturna.png" alt="Visão Noturna">
+                            <p>Visão Noturna</p>
+                        </div>
+                        <div id="comunicacao">
+                            <img src="./images/icone_comunicacaoOp.png" alt="Comunicações Ópticas">
+                            <p>Comunicações Ópticas</p>
+                        </div>
+                        <div id="aquecimento">
+                            <img src="./images/icone_termometro.png" alt="Aquecimento">
+                            <p>Aquecimento</p>
+                        </div>
+                    </section>
+                </article>
+
+            </section>
+            <section class="modalDif">
+                <dialog id="controleR-modal">
+                    <div class="fechar">
+                        <button id="fecharControleR"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Controles Remotos</h3>
+
+                        <p>Controles remotos utilizam ondas infravermelhas para enviar comandos para aparelhos
+                            eletrônicos. O processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>O controle remoto emite um pulso de luz infravermelha,
+                                invisível ao olho humano, em direção ao aparelho que deseja controlar.</li>
+                            <li><strong>Recepção de Sinais:</strong> O aparelho, como uma TV ou sistema de som, possui
+                                um receptor infravermelho que capta o sinal emitido. </li>
+                            <li><strong>Execução do Comando:</strong>O aparelho decodifica o pulso de luz infravermelha
+                                e executa a ação correspondente, como aumentar o volume ou mudar o canal. </li>
+                        </ul>
+                        <p>As ondas infravermelhas são usadas em controles remotos porque são seguras, fáceis de emitir
+                            e funcionam a curta distância sem interferência.</p>
+                        <img src="./images/exControleRemoto.png" alt="Como funcionam os Controles Remotos">
+                    </div>
+
+                </dialog>
+
+                <dialog id="termografia-modal">
+                    <div class="fechar">
+                        <button id="fecharTermografia"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Termografia</h3>
+
+                        <p>A termografia utiliza ondas infravermelhas para detectar calor e criar imagens térmicas. O
+                            processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Calor:</strong>Objetos e seres vivos emitem radiação infravermelha
+                                proporcional à sua temperatura. </li>
+                            <li><strong>Captura das Ondas:</strong>Câmeras de termografia capturam essa radiação
+                                infravermelha, registrando as diferenças de temperatura.</li>
+                            <li><strong>Criação de Imagem Térmica:</strong>O dispositivo converte as informações
+                                capturadas em uma imagem que mostra as variações de calor em cores diferentes, onde
+                                áreas mais quentes aparecem em tons de vermelho e amarelo, e áreas mais frias em azul.
+                            </li>
+                        </ul>
+                        <p>A termografia é usada em segurança, medicina e diagnósticos para detectar calor em
+                            superfícies ou corpos, fornecendo informações úteis sem contato direto. </p>
+                        <img src="./images/exTermografia.png" alt="Como funcionam os Termografia">
+                    </div>
+                </dialog>
+
+                <dialog id="visaoN-modal">
+                    <div class="fechar">
+                        <button id="fecharVisaoN"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Tecnologia de Visão Noturna</h3>
+
+                        <p>Sistemas de visão noturna utilizam ondas infravermelhas para permitir que objetos e pessoas
+                            sejam vistos em ambientes escuros. O processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Luz Infravermelha:</strong>Alguns dispositivos de visão noturna
+                                emitem luz infravermelha que ilumina o ambiente sem ser visível ao olho humano. </li>
+                            <li><strong>Reflexão da Luz:</strong>Essa luz infravermelha reflete nos objetos e é captada
+                                por sensores especializados.</li>
+                            <li><strong>Formação da Imagem:</strong>O dispositivo transforma a luz refletida em uma
+                                imagem que pode ser visualizada, permitindo que pessoas ou objetos sejam detectados
+                                mesmo no escuro total.</li>
+                        </ul>
+                        <p>A visão noturna infravermelha é amplamente usada em segurança, vigilância e em operações
+                            militares.</p>
+                        <img src="./images/exVisaoNoturna.png" alt="Como funciona Visão Noturna">
+                    </div>
+                </dialog>
+
+                <dialog id="comunicacaoO-modal">
+                    <div class="fechar">
+                        <button id="fecharComunicacaoO"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Comunicações Ópticas</h3>
+
+                        <p>Ondas infravermelhas são utilizadas para transmitir dados em comunicações ópticas,
+                            especialmente em redes de fibra óptica. O processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Luz Infravermelha:</strong>Dispositivos emissores em uma rede de
+                                fibra óptica geram pulsos de luz infravermelha que transportam informações digitais.
+                            </li>
+                            <li><strong>Transmissão pela Fibra Óptica:</strong>A luz infravermelha viaja por longas
+                                distâncias através de cabos de fibra óptica com pouca perda de sinal. </li>
+                            <li><strong>Conversão em Eletricidade:Recepção e Conversão:</strong>No final da linha, os
+                                pulsos de luz infravermelha são captados e convertidos novamente em dados digitais
+                                utilizáveis por computadores e sistemas de comunicação.</li>
+
+                        </ul>
+                        <p>A infravermelha é escolhida para comunicações ópticas por sua capacidade de transportar
+                            grandes quantidades de dados a longas distâncias com pouca interferência.</p>
+                        <img src="./images/exComunOpiticaINFRA.png" alt="Como funciona a Comunicações Ópticas">
+                    </div>
+                </dialog>
+
+                <dialog id="aquecimento-modal">
+                    <div class="fechar">
+                        <button id="fecharAquecimento"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Aquecimento</h3>
+
+                        <p>Ondas infravermelhas são usadas em sistemas de aquecimento por radiação. O processo funciona
+                            da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>Um aquecedor infravermelho emite radiação
+                                infravermelha em direção a pessoas ou objetos no ambiente.</li>
+                            <li><strong>Absorção de Calor:</strong>As ondas infravermelhas são absorvidas diretamente
+                                pelos objetos ou pelas pessoas, aquecendo-os sem precisar aquecer o ar ao redor.</li>
+                            <li><strong>Distribuição do Calor:</strong>O calor gerado pelas ondas infravermelhas é
+                                distribuído de forma uniforme e imediata, proporcionando conforto térmico rapidamente.
+                            </li>
+
+                        </ul>
+                        <p>Aquecedores infravermelhos são usados em saunas, terapias médicas e ambientes residenciais
+                            devido à sua eficiência em aquecer diretamente o corpo ou superfícies.</p>
+                        <img src="./images/exAquecimentoINFRA.png" alt="Como funciona o Aquecimento">
+                    </div>
+                </dialog>
+            </section>
+
+            <!-- modal- onda luz visível e onde usa -->
+            <section id="ondaLuzVisivel-modal" class="esconder">
+                <h1>O que são Ondas de Luz Visível? </h1>
+                <p>As ondas de luz visível são uma das formas mais fundamentais de radiação eletromagnética em nossa
+                vida. Elas não apenas nos permitem enxergar e perceber cores, mas também são a base para uma
+                série de tecnologias, desde a comunicação óptica até a geração de energia solar. A forma como
+                percebemos a luz visível é uma combinação de sua frequência, comprimento de onda e intensidade,
+                que juntas criam o mundo colorido e iluminado que vemos ao nosso redor. </p>
+
+                <section class="luzCores">
+                    <article class="textoLuz">
+                        <h2>Espectro de Cores: </h2>
+                        <p>A luz visível é composta por um espectro contínuo de cores, que vai do vermelho ao
+                        violeta. Cada cor corresponde a uma faixa específica de comprimento de onda e
+                        frequência: </p>
+                        <!-- todas as cores -->
+                        <img src="./images/espectro_deCores.png" alt="Espectro de Cores">
+                    </article>
+                    <article id="cores">
+                        <div id="divVermelho">
+                            <p>Vermelho</p>
+                        </div>
+                        <div id="divLaranja">
+                            <p>Laranja</p>
+                        </div>
+                        <div id="divAmarelo">
+                            <p>Amarelo</p>
+                        </div>
+                        <div id="divVerde">
+                            <p>Verde</p>
+                        </div>
+                        <div id="divAzul">
+                            <p>Azul</p>
+                        </div>
+                        <div id="divVioleta">
+                            <p>Violeta</p>
+                        </div>
+                    </article>
+                </section>
+
+                <h2>Intensidade da Luz:</h2>
+                <p>A <strong>intensidade</strong> da luz visível refere-se à quantidade de energia que a luz transporta, e está diretamente ligada ao brilho percebido. <br> A intensidade pode variar consideravelmente dependendo da fonte de luz. Por exemplo, o Sol emite luz visível de alta intensidade, enquanto uma vela ou uma lâmpada emite luz com menor intensidade. <br> A intensidade da luz também afeta a <strong>luminosidade percebida</strong>. Cores de maior comprimento de onda, como vermelho e laranja, são percebidas como menos intensas, enquanto o verde e o azul tendem a ser mais brilhantes para o olho humano. </p>
+
+                <section class="luzCores">
+                    <article class="textoLuz">
+                        <h2>Luz solar: </h2>
+                        <p>A luz natural do Sol é uma mistura de todas as cores do espectro visível, formando luz branca. Quando a luz solar passa através de um prisma ou se dispersa na atmosfera, ela se separa em suas cores componentes (o arco-íris). <br> 
+
+                        A intensidade da luz solar é forte o suficiente para causar danos, como queimaduras solares, se não houver proteção adequada.  </p>
+                        <br>
+                        <h2>Fontes de Luz Artificial: </h2>
+                        <p>Lâmpadas incandescentes, LEDs e lâmpadas fluorescentes são exemplos de fontes de luz artificial que emitem luz visível. A intensidade e a cor da luz dessas fontes variam de acordo com o tipo de tecnologia usada. </p>
+                    </article>
+                    <article id="imgLuzS">
+                        <!-- luz solar e luz artificial -->
+                        <img src="./images/luzSolar.jpg" alt="luz solar">
+                        <img src="./images/luzArtificial.jpg" alt="luz artificial">
+                    </article>
+                </section>
+
+
+                <article class="utilidades">
+                    <h2>Onde são encontradas:</h2>
+    
+                    <section class="ondeUsa">
+                        <div id="iluminacaoL">
+                            <img src="./images/icone_iluminacao.png" alt="Iluminação">
+                            <p>Iluminação</p>
+                        </div>
+                        <div id="fotografia">
+                            <img src="./images/icone_fotografia.png" alt="Fotografia e Vídeo">
+                            <p>Fotografia e Vídeo</p>
+                        </div>
+                        <div id="comunicaçõesL">
+                            <img src="./images/icone_comunicacaoOp-LUZ.png" alt="Comunicações Ópticas">
+                            <p>Comunicações Ópticas</p>
+                        </div>
+                        <div id="ciênciaM">
+                            <img src="./images/icone_medicina.png" alt="Ciência e Medicina">
+                            <p>Ciência e Medicina</p>
+                        </div>
+                        <div id="energiaSolar">
+                            <img src="./images/icone_vitamina.png" alt="Energia Solar">
+                            <p>Energia Solar</p>
+                        </div>
+                    </section>
+                </article>
+
+            </section>
+            <section class="modalDif">
+                <dialog id="iluminacao-modal">
+                    <div class="fechar">
+                        <button id="fecharIluminacao"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Iluminação</h3>
+
+                        <p>As ondas de luz visível são amplamente usadas na iluminação para fornecer claridade a
+                            ambientes internos e externos. O processo funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Emissão de Luz:</strong>Fontes de luz artificial, como lâmpadas incandescentes,
+                                fluorescentes e LEDs, emitem ondas de luz visível que iluminam o ambiente. </li>
+                            <li><strong>Distribuição da Luz:</strong> A luz visível é distribuída uniformemente pelo
+                                espaço, proporcionando iluminação adequada para diversas atividades, como leitura,
+                                trabalho e entretenimento. </li>
+                            <li><strong>Percepção Visual:</strong>Os olhos humanos captam essa luz e permitem que
+                                enxerguemos as cores e formas no ambiente iluminado. </li>
+                        </ul>
+                        <p>As ondas de luz visível são fundamentais para a iluminação porque fornecem a claridade
+                            necessária para o funcionamento de residências, escritórios e espaços públicos, com grande
+                            eficiência e controle sobre a intensidade e cor da luz emitida. </p>
+                        
+                    </div>
+
+                </dialog>
+
+                <dialog id="fotografia-modal">
+                    <div class="fechar">
+                        <button id="fecharFotografia"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Fotografia e Vídeo</h3>
+
+                        <p>Na fotografia e no vídeo, as ondas de luz visível são essenciais para a captura de imagens. O
+                            processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Captura de Luz:</strong>Câmeras fotográficas e de vídeo utilizam sensores para
+                                capturar as ondas de luz visível refletidas pelos objetos no ambiente.</li>
+                            <li><strong>Formação da Imagem:</strong>A luz capturada é convertida em sinais digitais (em
+                                câmeras modernas), formando a imagem ou o vídeo correspondente.</li>
+                            <li><strong>Reprodução de Cores:</strong>A luz visível permite que as câmeras capturem uma
+                                ampla gama de cores, reproduzindo imagens e vídeos com realismo e fidelidade às cores
+                                originais. </li>
+                        </ul>
+                        <p>A luz visível é crucial para a fotografia e o vídeo porque permite a captura e reprodução
+                            visual do mundo ao nosso redor com alta qualidade e definição. </p>
+                        
+                    </div>
+                </dialog>
+
+                <dialog id="comunicacaoOL-modal">
+                    <div class="fechar">
+                        <button id="fecharComunicacao"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Comunicações Ópticas</h3>
+
+                        <p>Ondas de luz visível são usadas em comunicações ópticas, particularmente em sistemas que
+                            transmitem dados por meio de luz. O processo funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Emissão de Luz Visível:</strong>Fontes de luz emitem pulsos de luz visível em
+                                cabos de fibra óptica para transmitir dados. </li>
+                            <li><strong>Transmissão de Dados:</strong> A luz viaja através dos cabos, levando
+                                informações digitais codificadas em seus pulsos. </li>
+                            <li><strong>Recepção e Conversão:</strong>No final da linha, a luz visível é captada e
+                                convertida de volta em sinais digitais, permitindo a comunicação de alta velocidade e
+                                grande capacidade de dados. </li>
+                        </ul>
+                        <p>A luz visível é usada em comunicações ópticas por sua capacidade de transportar grandes
+                            quantidades de informação a longas distâncias com baixa perda de sinal. </p>
+                        <img src="./images/exComunOpiticaLUZ.png" alt="Como funciona a Comunicações Ópticas">
+                    </div>
+                </dialog>
+
+                <dialog id="cienciaM-modal">
+                    <div class="fechar">
+                        <button id="fecharCienciaM"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Ciência e Medicina</h3>
+
+                        <p>Na ciência e na medicina, as ondas de luz visível desempenham um papel essencial em
+                            diagnósticos e pesquisas. O processo funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Microscopia e Observação:</strong>Equipamentos como microscópios ópticos
+                                utilizam luz visível para iluminar amostras, permitindo a observação de detalhes
+                                invisíveis a olho nu. </li>
+                            <li><strong>Diagnósticos Médicos:</strong> Luz visível é usada em exames, como na endoscopia
+                                e em cirurgias a laser, para visualizar e tratar tecidos com alta precisão.</li>
+                            <li><strong>Pesquisa Científica:</strong>Em laboratórios, a luz visível é usada em
+                                experimentos para estudar propriedades de materiais, fenômenos ópticos e para análise de
+                                amostras.</li>
+
+                        </ul>
+                        <p>A luz visível é essencial na ciência e na medicina porque permite visualizações detalhadas e
+                            procedimentos precisos que não seriam possíveis sem ela.</p>
+                        
+                    </div>
+                </dialog>
+
+                <dialog id="energiaSolar-modal">
+                    <div class="fechar">
+                        <button id="fecharEnergiaS"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Energia Solar</h3>
+
+                        <p>Painéis solares fotovoltaicos convertem ondas de luz visível em eletricidade para fornecer
+                            energia renovável. O processo funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Captura da Luz:</strong>Os painéis solares são feitos de células fotovoltaicas
+                                que capturam a luz visível emitida pelo Sol. </li>
+                            <li><strong>Conversão em Eletricidade:</strong>As células fotovoltaicas convertem a energia
+                                da luz visível diretamente em eletricidade por meio do efeito fotovoltaico. </li>
+                            <li><strong>Distribuição de Energia:</strong>A eletricidade gerada é então utilizada para
+                                alimentar dispositivos, casas e edifícios, ou armazenada em baterias para uso posterior.
+                            </li>
+
+                        </ul>
+                        <p>A luz visível é fundamental na geração de energia solar, pois é convertida diretamente em
+                            eletricidade, proporcionando uma fonte de energia limpa e sustentável.</p>
+                        <img src="./images/exEnergiaSolarLUZ.png" alt="Como funciona a transmissão de canais de tv">
+                    </div>
+                </dialog>
+            </section>
+            <!-- modal tipos de cores -->
+            <section id="modalCores">
+                <dialog id="vermelhoModal">
+                    <div class="fechar">
+                        <button id="fecharVermelho"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Vermelho</h3>
+
+                        <p>Tem o <strong>maior comprimento de onda</strong> dentro da luz visível, variando de aproximadamente 620 a 750 nanômetros (nm).</p>
+                        <p>Por isso, o vermelho está associado às <strong>frequências mais baixas</strong>, cerca de 430 terahertz (THz).  <br> A luz vermelha tem menor energia em comparação com as cores mais próximas do violeta. </p>
+                    </div>
+                </dialog>
+
+                <dialog id="laranjaModal">
+                    <div class="fechar">
+                        <button id="fecharLaranja"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Laranja</h3>
+
+                        <p>Com comprimentos de onda entre 590 e 620 nm, com uma frequência ligeiramente mais alta, mas ainda entre as cores de <strong>menor energia</strong>. </p>
+                    </div>
+                </dialog>
+
+                <dialog id="amareloModal">
+                    <div class="fechar">
+                        <button id="fecharAmarelo"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Amarelo</h3>
+
+                        <p>O amarelo ocupa o intervalo de 570 a 590 nm, com frequências ao redor de 510 THz. </p>
+                        <p>A luz amarela é vista com intensidade moderada, sendo <strong>uma das cores mais perceptíveis</strong> ao olho humano.  </p>
+                    </div>
+                </dialog>
+
+                <dialog id="verdeModal">
+                    <div class="fechar">
+                        <button id="fecharVerde"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Verde</h3>
+
+                        <p>A luz verde, entre 495 e 570 nm, é uma das cores mais <strong>facilmente detectadas</strong> pelo olho humano. Ela tem uma <strong>frequência intermediária</strong>, entre 510 e 580 THz.</p>
+                    </div>
+                </dialog>
+
+                <dialog id="azulModal">
+                    <div class="fechar">
+                        <button id="fecharAzul"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Azul</h3>
+
+                        <p>O azul tem comprimentos de onda que variam de 450 a 495 nm, com uma <strong>frequência alta</strong>, na faixa de 610 a 670 THz. </p>
+                        <p>Esta cor <strong>carrega mais energia</strong>, tornando-se importante para fenômenos como o céu azul, causado pela dispersão de luz. </p>
+                    </div>
+                </dialog>
+
+                <dialog id="violetaModal">
+                    <div class="fechar">
+                        <button id="fecharVioleta"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Violeta</h3>
+
+                        <p>A cor violeta tem o <strong>menor comprimento</strong> de onda entre as cores visíveis, variando de 380 a 450 nm, com a <strong>maior frequência</strong>, chegando a 750 THz.  </p>
+                        <p>Isso significa que a luz violeta <strong>tem mais energia</strong> do que as outras cores visíveis, se aproximando da radiação ultravioleta. </p>
+                    </div>
+                </dialog>
+            </section>
+
+            <!-- modal- onda ultravioleta e onde usa -->
+            <section id="ondaUltravioleta-modal" class="esconder">
+                <h1>O que são Ondas Ultravioletas? </h1>
+                <p>As ondas ultravioletas desempenham papéis cruciais tanto na natureza quanto nas tecnologias desenvolvidas pelo ser humano. Desde a síntese de vitamina D até a desinfecção de ambientes hospitalares, suas aplicações são vastas. No entanto, a exposição excessiva pode ser perigosa, especialmente com UV-B e UV-C, que possuem maior potencial de causar danos biológicos. </p>
+
+                <section class="luzCores divsUV">
+                    <article class="textoLuz">
+                        <h2>Radiação: </h2>
+                        <p>Ondas ultravioletas fazem parte da <strong>radiação ionizante</strong> em suas faixas mais energéticas, especialmente o UV-C. Ondas ionizantes possuem energia suficiente para remover elétrons de átomos e moléculas, o que pode resultar em danos ao DNA e a outros materiais biológicos. Além de terem potencial para causar danos como o envelhecimento precoce da pele e o desenvolvimento de câncer de pele. </p>
+                        <img src="./images/ondasUV.png" alt="Ondas UV">
+                    </article>
+                    <article id="divUV">
+                        <div id="divUva">
+                            <p>UV-A</p>
+                        </div>
+                        <div id="divUvb">
+                            <p>UV-B</p>
+                        </div>
+                        <div id="divUvc">
+                            <p>UV-C</p>
+                        </div>
+                    </article>
+                </section>
+                
+
+                <article class="utilidades">
+                    <h2>Onde são encontradas:</h2>
+    
+                    <section class="ondeUsa">
+                        <div id="esterilizaçãoUl">
+                            <img src="./images/icone_esterilização.png" alt="Esterilização e Desinfecção">
+                            <p>Esterilização e Desinfecção</p>
+                        </div>
+                        <div id="vitamina">
+                            <img src="./images/icone_vitamina.png" alt="Vitamina D">
+                            <p>Vitamina D</p>
+                        </div>
+                        <div id="detectores">
+                            <img src="./images/icone_iluminacao.png" alt="Detectores">
+                            <p>Detectores</p>
+                        </div>
+                        <div id="astronomiaUL">
+                            <img src="./images/icone_espaco.png" alt="Astronomia">
+                            <p>Astronomia</p>
+                        </div>
+                        <div id="tratamentoA">
+                            <img src="./images/icone_agua.png" alt="Tratamento de Água">
+                            <p>Tratamento de Água</p>
+                        </div>
+                    </section>
+                </article>
+
+            </section>
+
+            <section id="modalUV">
+                <dialog id="UVA-modal">
+                    <div class="fechar">
+                        <button id="fecharUVA"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>UV-A</h3>
+
+                        <p><strong>Comprimento de Onda:</strong> De 315 a 400 nanômetros, na faixa de ondas UV, tem o maior comprimento de onda. </p>
+                        <p><strong>Energia:</strong> Apesar de serem as menos energéticas, as ondas UV-A ainda podem provocar mudanças biológicas graves. </p>
+                        <p><strong>Penetração: </strong>As ondas UV-A têm a capacidade de penetrar profundamente na pele, chegando até a derme, a camada inferior. </p>
+                        <p><strong>Efeitos Biológicos: </strong></p>
+                        <ul>
+                            <li><strong>Envelhecimento da Pele:</strong> UV-A é uma das principais causas do envelhecimento prematuro da pele devido à exposição solar prolongada.
+                            </li>
+                            <li><strong>Danos ao DNA Indiretos:</strong> UV-A gera espécies reativas de oxigênio (radicais livres), que danificam o DNA indiretamente e podem contribuir para o desenvolvimento de câncer de pele. </li>
+                            <li><strong>Bronzeamento:</strong> As ondas UV-A são as principais responsáveis pelo bronzeamento da pele e são usadas em câmaras de bronzeamento artificial.</li>
+                        </ul>
+                        <p>A maioria da radiação UV-A que atinge a superfície da Terra vem do Sol. Ela representa cerca de 95% da radiação ultravioleta solar que chega ao solo. </p>
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="UVB-modal">
+                    <div class="fechar">
+                        <button id="fecharUVB"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>UV-B</h3>
+
+                        <p><strong>Comprimento de Onda:</strong>  De 280 a 315 nanômetros. </p>
+                        <p><strong>Energia:</strong> Ondas UV-B possuem energia suficiente para causar danos diretos ao DNA, rompendo ligações químicas nas moléculas. </p>
+                        <p><strong>Penetração: </strong>UV-B atinge a camada superior da pele (epiderme), sendo menos penetrante do que UV-A.</p>
+                        <p><strong>Efeitos Biológicos: </strong></p>
+                        <ul>
+                            <li><strong>Danos ao DNA Diretos:</strong>UV-B provoca danos diretos ao DNA, como a formação de dímeros de timina, que são alterações moleculares no DNA que podem levar a mutações.</li>
+                            <li><strong>Queimaduras Solares:</strong> A exposição excessiva ao UV-B é a principal causa das queimaduras solares. </li>
+                            <li><strong>Produção de Vitamina D:</strong> UV-B é essencial para a síntese de vitamina D no corpo, que é fundamental para a saúde óssea e para o sistema imunológico. </li>
+                            <li><strong>Risco de Câncer de Pele:</strong> Exposição prolongada ao UV-B pode aumentar significativamente o risco de câncer de pele, incluindo melanoma, que é o tipo mais grave. </li>
+
+                             
+                        </ul>
+                        <p>A camada de ozônio absorve grande parte da radiação UV-B, mas cerca de 5% ainda chega à superfície da Terra.  </p>
+
+                    </div>
+
+                </dialog>
+
+                <dialog id="UVC-modal">
+                    <div class="fechar">
+                        <button id="fecharUVC"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>UV-C</h3>
+
+                        <p><strong>Comprimento de Onda:</strong>  De 100 a 280 nanômetros, UV-C possui o menor comprimento de onda e a maior energia. </p>
+                        <p><strong>Energia:</strong>UV-C é altamente energética, tornando-a extremamente eficaz na destruição de células biológicas. </p>
+                        <p><strong>Penetração: </strong>UV-C não penetra profundamente nas camadas da pele; no entanto, é muito mais prejudicial em contato direto. </p>
+                        <p><strong>Efeitos Biológicos: </strong></p>
+                        <ul>
+                            <li><strong>Danos ao DNA Diretos:</strong>UV-C é tão energético que destrói diretamente o DNA de microrganismos e células, o que explica seu uso em sistemas de esterilização. </li>
+                            <li><strong>Perigos para a Saúde:</strong> A exposição direta e prolongada ao UV-C pode causar queimaduras severas na pele e danos nos olhos, como a queratite (inflamação da córnea). </li>
+                        </ul>
+                        <p>A radiação UV-C natural do Sol é completamente bloqueada pela camada de ozônio e pela atmosfera da Terra. No entanto, é gerada artificialmente em lâmpadas germicidas usadas para esterilização e purificação de ar e água. </p>
+
+                    </div>
+
+                </dialog>
+            </section>
+
+            <section class="modalDif">
+                <dialog id="esterelizaUl-modal">
+                    <div class="fechar">
+                        <button id="fecharEsterilizaUl"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Esterilização e Desinfecção</h3>
+
+                        <p>As ondas UV-C são amplamente utilizadas para a esterilização de ambientes e superfícies, já
+                            que são capazes de destruir microrganismos. O processo funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Emissão de Onda:</strong>Fontes de radiação UV-C emitem ondas ultravioletas
+                                altamente energéticas que são direcionadas para superfícies, água ou ar contaminados.
+                            </li>
+                            <li><strong>Destruição de Microrganismos:</strong> As ondas UV-C atingem as células dos
+                                microrganismos, quebrando seu DNA e RNA, impedindo sua reprodução e levando à sua
+                                eliminação.</li>
+                            <li><strong>Esterilização Completa:</strong>O uso adequado de UV-C pode garantir um ambiente
+                                livre de vírus, bactérias e fungos, sendo uma técnica comum em hospitais, laboratórios e
+                                purificadores de ar e água.</li>
+                        </ul>
+
+                        <img src="./images/exEsterelizaUV.png" alt="Como funcionam Esterilização e Desinfecção">
+                    </div>
+
+                </dialog>
+
+                <dialog id="vitamina-modal">
+                    <div class="fechar">
+                        <button id="fecharVitamina"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Produção de Vitamina D</h3>
+
+                        <p>As ondas UV-B têm um papel essencial na síntese da vitamina D na pele humana. O processo
+                            ocorre da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>A radiação UV-B presente na luz solar penetra a camada
+                                superficial da pele.</li>
+                            <li><strong>Transformação de Precursor em Vitamina D:</strong>Na pele, o 7-dehidrocolesterol
+                                é convertido em pré-vitamina D3 pela ação das ondas UV-B.</li>
+                            <li><strong>Ativação da Vitamina D:</strong>Após a conversão, a vitamina D é ativada no
+                                fígado e nos rins, permitindo que o corpo regule os níveis de cálcio e fósforo,
+                                essenciais para a saúde óssea.</li>
+                        </ul>
+
+                        <img src="./images/exVitamina.png" alt="Como funcionam Produção de Vitamina D">
+                    </div>
+                </dialog>
+
+                <dialog id="lampadaUv-modal">
+                    <div class="fechar">
+                        <button id="fecharLampadaUv"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Lâmpadas UV para Inspeção e Detectores</h3>
+
+                        <p>As lâmpadas UV-A e UV-C são utilizadas para inspeção e detecção em diversas indústrias. O
+                            processo envolve: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>Lâmpadas UV emitem ondas UV-A ou UV-C que são
+                                projetadas sobre superfícies específicas ou objetos a serem inspecionados.</li>
+                            <li><strong>Reação com Materiais:</strong> Muitos materiais florescem ou reagem de maneira
+                                distinta sob luz UV, facilitando a identificação de rachaduras, vazamentos ou
+                                autenticidade de documentos. </li>
+                            <li><strong>Detecção Visual:</strong>A reação visível sob luz UV permite uma análise precisa
+                                e não invasiva, tornando essa tecnologia valiosa em arqueologia, inspeções industriais e
+                                detecção de falsificações. </li>
+                        </ul>
+                        <img src="./images/exDetectoresUV.png" alt="Como funciona Lâmpadas UV">
+                    </div>
+                </dialog>
+
+                <dialog id="astronomiaF-modal">
+                    <div class="fechar">
+                        <button id="fecharAstronomiaF"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Fotografia e Astronomia</h3>
+
+                        <p>As ondas UV são usadas em astronomia e fotografia científica para observar fenômenos que não
+                            são visíveis na luz comum. O processo é o seguinte: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>Objetos celestes, como estrelas jovens e galáxias,
+                                emitem grandes quantidades de radiação UV. </li>
+                            <li><strong>Detecção de Luz UV:</strong> Telescópios e câmeras equipadas com sensores UV
+                                captam essa radiação, permitindo aos astrônomos observar estruturas que não seriam
+                                visíveis em luz visível. </li>
+                            <li><strong>Fotografia Científica:</strong> Em laboratórios, a fotografia em UV é usada para
+                                destacar certos materiais e reações químicas, ajudando em análises detalhadas.</li>
+                        </ul>
+                        
+                    </div>
+                </dialog>
+
+                <dialog id="tratamentoA-modal">
+                    <div class="fechar">
+                        <button id="fecharTratamentoA"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Tratamento de Água</h3>
+
+                        <p>As ondas UV-C também são usadas no tratamento de água para eliminar microrganismos sem a
+                            necessidade de produtos químicos. O processo ocorre assim: </p>
+                        <ul>
+                            <li><strong>Emissão de Ondas:</strong>Sistemas de purificação de água emitem radiação UV-C
+                                sobre a água a ser tratada.</li>
+                            <li><strong>Eliminação de Contaminantes:</strong> As ondas UV-C destroem o DNA dos patógenos
+                                presentes na água, eliminando vírus, bactérias e protozoários.</li>
+                            <li><strong>Água Purificada:</strong> O uso de UV-C em sistemas de tratamento de água
+                                garante a eliminação de contaminantes biológicos, sem alterar o sabor ou o cheiro da
+                                água.</li>
+
+                        </ul>
+                        <img src="./images/exEsterelizaUV.png" alt="Como funciona Tratamento de Água">
+                    </div>
+                </dialog>
+            </section>
+
+            <!-- modal- onda raioX e onde usa -->
+            <section id="ondaRaioX-modal" class="esconder">
+                <h1>O que são Ondas Ondas de Raio-X? </h1>
+                <div class="txt_ondaX">
+                    <div>
+                        <p>Ondas de raio-X são um tipo de radiação eletromagnética com grande energia e capacidade de
+                            penetrar diversos materiais. Embora sejam extremamente úteis, a exposição excessiva pode ser
+                            prejudicial devido à sua capacidade de ionizar materiais e causar danos biológicos.</p>
+                        <h2>Características da onda:</h2>
+                        <p><strong>Comprimento:</strong> Variam entre 0,01 e 10 nanômetros. </p>
+                        <p><strong>Frequência:</strong> As frequências estão na faixa de 30 PHz a 30 EHz, ou seja, são
+                            milhões de vezes mais altas que as microondas ou ondas de rádio.</p>
+                        <br>
+                        <p><strong>Radiação:</strong> <br>Os raios-X são <strong>radiações ionizantes</strong>, o que
+                            significa que possuem energia suficiente para ionizar átomos e moléculas, rompendo ligações
+                            químicas e danificando o DNA e outros materiais biológicos. Embora essa capacidade seja
+                            perigosa para a saúde, também é extremamente útil em aplicações como a medicina, em que os
+                            raios-X podem ser usados para criar imagens detalhadas do interior do corpo humano. </p>
+                    </div>
+                    <img src="./images/raioX_img.jpg" alt="Raio-X" class="imagemredonda">
+                </div>
+
+                <article class="utilidades">
+                    <h2>Onde são encontradas:</h2>
+
+                    <section class="ondeUsa">
+                        <div id="radiografiaX">
+                            <img src="./images/icone_radiografia.png" alt="Radiografia Médica">
+                            <p>Radiografia Médica</p>
+                        </div>
+                        <div id="tomografia">
+                            <img src="./images/icone_tomografia.png" alt="Tomografia">
+                            <p>Tomografia Computadorizada</p>
+                        </div>
+                        <div id="segurancaA">
+                            <img src="./images/icone_segurancaA.png" alt="Segurança Aeroportuária">
+                            <p>Segurança Aeroportuária</p>
+                        </div>
+                        <div id="radioterapia">
+                            <img src="./images/icone_radioterapia.png" alt="Radioterapia">
+                            <p>Radioterapia</p>
+                        </div>
+                        <div id="exploracaoEs">
+                            <img src="./images/icone_espaco.png" alt="Exploração Espacia">
+                            <p>Exploração Espacial</p>
+                        </div>
+                    </section>
+                </article>
+
+            </section>
+            <section class="modalDif">
+                <dialog id="radiografiaX-modal">
+                    <div class="fechar">
+                        <button id="fecharRadiografiaX"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Radiografia Médica</h3>
+
+                        <p>Os raios-X são amplamente utilizados na medicina para criar imagens do interior do corpo,
+                            como ossos e órgãos. O processo funciona da seguinte maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Raios-X:</strong>A máquina de raios-X emite ondas que passam pelo
+                                corpo humano.</li>
+                            <li><strong>Absorção Diferenciada:</strong> Diferentes tecidos do corpo (ossos, músculos,
+                                órgãos) absorvem os raios-X de forma variável, com os ossos absorvendo mais e aparecendo
+                                como áreas mais claras nas imagens.</li>
+                            <li><strong>Formação da Imagem:</strong> As ondas que não são absorvidas atingem um
+                                detector, que cria uma imagem baseada na quantidade de radiação que passou por cada
+                                parte do corpo.</li>
+                        </ul>
+                        <p>Os raios-X são usados para detectar fraturas ósseas, problemas dentários e doenças
+                            pulmonares.</p>
+                        <img src="./images/exRaioX.png" alt="Como funcionam Radiografia Médica">
+                    </div>
+
+                </dialog>
+
+                <dialog id="tomografia-modal">
+                    <div class="fechar">
+                        <button id="fecharTomografia"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Tomografia Computadorizada</h3>
+
+                        <p>A tomografia computadorizada é uma técnica médica que utiliza raios-X para criar imagens
+                            tridimensionais detalhadas do interior do corpo humano. O processo funciona da seguinte
+                            maneira: </p>
+                        <ul>
+                            <li><strong>Emissão de Raios-X:</strong>A máquina de tomografia emite raios-X de diferentes
+                                ângulos ao redor do corpo do paciente.</li>
+                            <li><strong>Absorção Diferenciada:</strong> Diferentes tecidos, como ossos, músculos e
+                                órgãos, absorvem os raios-X de forma distinta. Os ossos absorvem mais radiação e
+                                aparecem mais claros nas imagens, enquanto os tecidos moles absorvem menos e aparecem
+                                mais escuros.</li>
+                            <li><strong>Captura e Processamento:</strong>Sensores especiais captam as ondas de raios-X
+                                que passam pelo corpo. Um computador processa esses dados e reconstrói imagens
+                                detalhadas em fatias ou em 3D, permitindo uma visão precisa de diferentes camadas e
+                                estruturas do corpo.</li>
+                            <li><strong>Formação da Imagem 3D:</strong>Ao combinar as várias imagens feitas em ângulos
+                                diferentes, a tomografia gera uma visualização tridimensional, que auxilia na
+                                identificação de tumores, lesões internas e anomalias complexas. </li>
+                        </ul>
+                        <p>A tomografia computadorizada é amplamente usada para detectar problemas como tumores,
+                            coágulos, infecções e traumas em órgãos internos e vasos sanguíneos.</p>
+                        <img src="./images/exTomografia.png" alt="Como funcionam Tomografia">
+                    </div>
+                </dialog>
+
+                <dialog id="segurancaA-modal">
+                    <div class="fechar">
+                        <button id="fecharSegurancaA"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Segurança Aeroportuária</h3>
+
+                        <p>Os raios-X são amplamente usados para inspecionar bagagens e verificar se há objetos
+                            perigosos. O processo funciona assim:</p>
+                        <ul>
+                            <li><strong>Emissão de Raios-X:</strong>O equipamento emite ondas de raios-X sobre os itens
+                                na bagagem.</li>
+                            <li><strong>Absorção pelos Materiais:</strong> Diferentes materiais, como metais e
+                                plásticos, absorvem os raios de maneiras diferentes, permitindo a detecção de objetos
+                                ilegais ou perigosos. </li>
+                            <li><strong>Formação de Imagem:</strong> O detector captura a radiação que passou pela
+                                bagagem e cria uma imagem que os agentes de segurança utilizam para identificar o
+                                conteúdo. </li>
+                        </ul>
+                        <img src="./images/exDetectorRAIOX.png" alt="Como funciona a Segurança Aeroportuária">
+                    </div>
+                </dialog>
+
+                <dialog id="radioterapiaX-modal">
+                    <div class="fechar">
+                        <button id="fecharRadioterapiaX"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Radioterapia</h3>
+
+                        <p>Na radioterapia, os raios-X de alta energia são usados para tratar o câncer. O processo
+                            funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Emissão de Raios-X Focados:</strong>Raios-X são direcionados com precisão para
+                                as células cancerosas, sem atingir áreas saudáveis.</li>
+                            <li><strong>Danos às Células Cancerosas:</strong> A radiação ionizante danifica o DNA das
+                                células cancerosas, impedindo sua reprodução e levando à morte dessas células. </li>
+                            <li><strong>Tratamento Localizado:</strong> Esse tratamento é extremamente eficaz no combate
+                                a tumores, já que os raios-X podem ser focados diretamente nas áreas afetadas.</li>
+                        </ul>
+                        <img src="./images/exCancerRAIOX.png" alt="Como funciona a Radioterapia">
+                    </div>
+                </dialog>
+
+                <dialog id="exploracaoEs-modal">
+                    <div class="fechar">
+                        <button id="fecharExploracaoEs"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Exploração Espacial</h3>
+
+                        <p>Os raios-X são utilizados na astronomia para observar fenômenos cósmicos de alta energia. O
+                            processo funciona assim: </p>
+                        <ul>
+                            <li><strong>Emissão de Raios-X no Espaço:</strong>Objetos como buracos negros, supernovas e
+                                estrelas de nêutrons emitem grandes quantidades de raios-X.</li>
+                            <li><strong>Detecção de Raios-X:</strong> Telescópios espaciais capturam esses raios,
+                                fornecendo dados valiosos sobre a composição, temperatura e comportamento desses corpos
+                                celestes.</li>
+                            <li><strong>Análise do Universo:</strong>A astronomia de raios-X permite aos cientistas
+                                estudar processos violentos no universo que não são observáveis por outros tipos de
+                                radiação.</li>
+
+                        </ul>
+                        
+                    </div>
+                </dialog>
+            </section>
+
+            <!-- modal- onda raioGama e onde usa -->
+            <section id="ondaRaioGama-modal" class="esconder">
+                <h1>O que são Ondas Ondas Gama? </h1>
+                <div class="txt_ondaX">
+                    <div>
+                        <p>Ondas gama são o tipo de radiação eletromagnética mais energéticos e poderosos. Embora possam
+                            ser perigosas para a saúde humana em grandes doses, elas também são incrivelmente úteis em
+                            diversas áreas, como a medicina, a exploração espacial e a indústria.</p>
+                        <h2>Características da onda:</h2>
+                        <p><strong>Comprimento:</strong> Variando de menos de 0,01 nanômetro.</p>
+                        <p><strong>Frequência:</strong> São extremamente altas, variando de acima de 10^19 Hz.
+                            <br>Quanto maior a frequência, maior a energia que essas ondas transportam.</p>
+                        <br>
+                        <p><strong>Radiação:</strong> <br>Ondas gama fazem parte da<strong> radiações
+                                ionizantes</strong>, o que significa que têm energia suficiente para ionizar átomos e
+                            moléculas, causando danos significativos a materiais biológicos. Isso as torna extremamente
+                            perigosas em altas doses, mas também muito úteis em aplicações como o tratamento de câncer,
+                            onde são usadas para destruir células cancerígenas. </p>
+                    </div>
+                    <img src="./images/RaioGama_img.jpg" alt="Ondas Gama" class="imagemredonda">
+                </div>
+
+                <article class="utilidades">
+                    <h2>Onde são encontradas:</h2>
+
+                    <section class="ondeUsa">
+                        <div id="radioterapiaG">
+                            <img src="./images/icone_radioterapia.png" alt="Radioterapia">
+                            <p>Radioterapia</p>
+                        </div>
+                        <div id="esterizacaoG">
+                            <img src="./images/icone_esterilização.png" alt="Antena">
+                            <p>Esterilização de Equipamentos Médicos</p>
+                        </div>
+                        <div id="astrofisicaG">
+                            <img src="./images/icone_espaco.png" alt="Astrofísica e Cosmologia">
+                            <p>Astrofísica e Cosmologia</p>
+                        </div>
+                        <div id="exploracaoG">
+                            <img src="./images/icone_exploracaoR.png" alt="TV Digital">
+                            <p>Exploração de Recursos Naturais</p>
+                        </div>
+                        <div id="radioIndustrial">
+                            <img src="./images/icone_radiografiaIndustrial.png" alt="Radiografia Industrial">
+                            <p>Radiografia Industrial</p>
+                        </div>
+                    </section>
+                </article>
+
+            </section>
+            <section class="modalDif">
+                <dialog id="radioterapiaG-modal">
+                    <div class="fechar">
+                        <button id="fecharRadioterapiaG"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Radioterapia</h3>
+
+                        <p>Ondas gama são amplamente utilizadas na radioterapia para tratar tumores cancerígenos. O
+                            processo funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Emissão de Raios Gama:</strong>Um feixe de ondas gama de alta intensidade é
+                                direcionado para o tumor.</li>
+                            <li><strong>Danos ao DNA das Células Cancerígenas:</strong> As ondas gama ionizam os átomos
+                                dentro das células cancerosas, danificando seu DNA e impedindo que elas se multipliquem.
+                            </li>
+                            <li><strong>Destruição do Tumor:</strong> Com o tempo, o dano acumulado pelas ondas gama
+                                destrói as células cancerosas, reduzindo o tamanho do tumor.</li>
+                        </ul>
+                        <p>Esse tratamento é preciso e eficaz, uma vez que pode ser focado diretamente na área afetada,
+                            minimizando o dano aos tecidos saudáveis ao redor. </p>
+                        <img src="./images/exCancerRAIOG.png" alt="Como funcionam Radioterapia">
+                    </div>
+
+                </dialog>
+
+                <dialog id="esterelizacaoG-modal">
+                    <div class="fechar">
+                        <button id="fecharEsterilizacaoG"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Esterilização de Equipamentos Médicos</h3>
+
+                        <p>As ondas gama são usadas para esterilizar equipamentos médicos e alimentos. O processo
+                            funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Emissão de Raios Gama:</strong> Ondas gama são emitidas de uma fonte, como o
+                                cobalto-60.</li>
+                            <li><strong>Penetração nos Materiais:</strong> As ondas penetram profundamente nos
+                                materiais, matando bactérias, vírus e outros microrganismos sem danificar os materiais.
+                            </li>
+                            <li><strong>Esterilização Completa:</strong>Os equipamentos ou produtos são esterilizados de
+                                forma rápida e eficaz, sem a necessidade de calor ou produtos químicos.</li>
+                        </ul>
+                        <p>Isso é especialmente útil em itens que não podem ser esterilizados com calor, como seringas
+                            de plástico e dispositivos médicos sensíveis.</p>
+                        <img src="./images/exEsterelizaG.png" alt="Como funcionam Esterilização">
+                    </div>
+                </dialog>
+
+                <dialog id="astrofisicaG-modal">
+                    <div class="fechar">
+                        <button id="fecharAstrofisicaG"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Astrofísica e Cosmologia</h3>
+
+                        <p>Ondas gama são utilizadas para estudar fenômenos de alta energia no universo, como explosões
+                            de supernovas e buracos negros. O processo funciona assim:</p>
+                        <ul>
+                            <li><strong>Emissão de Ondas Gama:</strong>Fenômenos astrofísicos intensos, como supernovas,
+                                emitem grandes quantidades de ondas gama.</li>
+                            <li><strong>Detecção:</strong> Telescópios espaciais capturam essas ondas e registram os
+                                eventos de alta energia, fornecendo informações sobre o nascimento e morte de estrelas e
+                                a formação de buracos negros.</li>
+                            <li><strong>Análise:</strong> A observação de raios gama ajuda a entender melhor a estrutura
+                                e a evolução do universo.</li>
+                        </ul>
+                        
+                    </div>
+                </dialog>
+
+                <dialog id="exploracaoR-modal">
+                    <div class="fechar">
+                        <button id="fecharExploracaoR"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Exploração de Recursos Naturais</h3>
+
+                        <p>Ondas gama também são usadas para inspecionar depósitos subterrâneos de petróleo e gás
+                            natural. O processo funciona da seguinte maneira:</p>
+                        <ul>
+                            <li><strong>Emissão de Raios Gama:</strong>Equipamentos especializados emitem ondas gama que
+                                penetram profundamente no solo.</li>
+                            <li><strong>Reflexão e Absorção:</strong> Os diferentes materiais no subsolo refletem ou
+                                absorvem as ondas gama de formas variadas, permitindo que os geólogos mapeiem a presença
+                                de depósitos.</li>
+                            <li><strong>Localização de Recursos:</strong> Com base no comportamento das ondas gama, as
+                                empresas podem determinar a localização e o tamanho de reservas de petróleo e gás.</li>
+                        </ul>
+                        <img src="./images/exRecursosNaturais.png" alt="Como funciona a Exploração de Recursos Naturais">
+                    </div>
+                </dialog>
+
+                <dialog id="radioIndustrial-modal">
+                    <div class="fechar">
+                        <button id="fecharRadioIndus"><img src="./images/fechar_icone.png" alt="X"></button>
+                    </div>
+                    <div class="containerModal">
+
+                        <h3>Radiografia Industrial</h3>
+
+                        <p>Ondas gama são usadas na inspeção de estruturas metálicas e soldas em indústrias, como a
+                            nuclear e a aeronáutica. O processo funciona assim:</p>
+                        <ul>
+                            <li><strong>Emissão de Raios Gama:</strong> Uma fonte de radiação gama é posicionada perto
+                                do objeto a ser inspecionado. </li>
+                            <li><strong>Penetração dos Raios Gama:</strong> As ondas gama passam através do objeto e são
+                                capturadas por um detector ou filme especial.</li>
+                            <li><strong>Detecção de Defeitos:</strong>As imagens formadas mostram variações na densidade
+                                do material, revelando falhas, rachaduras ou soldas defeituosas. </li>
+                        </ul>
+                        <p>Esse método é amplamente utilizado para garantir a integridade de materiais críticos, como
+                            tanques de armazenamento, tubulações e peças aeronáuticas.</p>
+                        <img src="./images/exRadiografiaIndustrial.png" alt="Como funciona a Radiografia Industrial">
+                    </div>
+                </dialog>
+            </section>
+        </section>
+
+
+    </main>
+
+    <script src="./js/pagina.js"></script>
+</body>
+
+</html>
