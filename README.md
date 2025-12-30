@@ -1,3 +1,5 @@
+## Ondas Eletromagnéticas
+
 Este projeto foi desenvolvido como parte de um trabalho escolar da disciplina de Física, com o objetivo de apresentar, de forma clara e didática, as definições de ondas eletromagnéticas e ondas mecânicas.
 
 A aplicação foi pensada para tornar o conteúdo mais acessível e interativo, explorando um design simples e funcional, com foco na organização das informações e na facilidade de navegação. Para isso, utilizei modais para exibir explicações de forma dinâmica, além de imagens autorais, criadas por mim, para auxiliar na visualização dos conceitos físicos abordados.
